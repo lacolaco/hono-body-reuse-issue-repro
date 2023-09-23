@@ -21,7 +21,7 @@ app.post('/', middleware(), async (c) => {
 });
 
 app.onError((e, c) => {
-  console.error(e);
+  console.error(e); // => TypeError: Body is unusable
   return c.text(e.message, 500);
 });
 
