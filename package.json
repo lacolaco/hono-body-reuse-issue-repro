@@ -1,0 +1,16 @@
+{
+  "name": "hono-body-reuse-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "hono": "3.7.1"
+  }
+}
